@@ -19,10 +19,8 @@ function CardView({ card, onSubmit }) {
     setImgErrors((prev) => ({ ...prev, [key]: true }));
   };
 
-  // After submission the user can click the card to toggle between faces
-  const handleFlip = () => {
-    if (feedback !== null) setFlipped((f) => !f);
-  };
+  // Keep Project 2 interaction: card can always be flipped by clicking.
+  const handleFlip = () => setFlipped((f) => !f);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -43,10 +41,7 @@ function CardView({ card, onSubmit }) {
   const showBackImage = card.backImage && !imgErrors[card.backImage];
 
   return (
-    <div
-      className={`card-scene ${feedback !== null ? 'is-interactive' : ''}`}
-      onClick={handleFlip}
-    >
+    <div className="card-scene is-interactive" onClick={handleFlip}>
       <div className={`card ${flipped ? 'is-flipped' : ''}`}>
         {/* ---- Front ---- */}
         <div

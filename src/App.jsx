@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="app">
       <h1 className="title">WORLD QUIZ</h1>
-      <p className="subtitle">Type your answer and submit to check!</p>
+      <p className="subtitle">Click to flip, or type your answer and submit to check!</p>
 
       <div className="streak-display">
         <span>🔥 Streak: {currentStreak}</span>
