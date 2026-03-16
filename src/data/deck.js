@@ -51,7 +51,7 @@ const deck = [
   {
     frontText: "It's not Vancouver. What is the actual capital city of the Canadian province of British Columbia?",
     backText: "Victoria",
-    frontImage: "https://www.maptrove.ca/info/wp-content/uploads/2018/08/where-is-British-Columbia.jpg",
+    frontImage: "https://upload.wikimedia.org/wikipedia/commons/b/b8/Flag_of_British_Columbia.svg",
     backImage: "https://i.natgeofe.com/n/33a4df32-ee76-4cf2-9630-06e30e5e3b66/GettyImages-1038549848.jpg",
     category: "medium"
   },
