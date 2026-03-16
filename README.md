@@ -131,3 +131,7 @@ When a user submits an answer:
 
 ## Notes
 - `WEB102_Hien_Vo_Project2/` is included as a reference snapshot of the previous milestone.
+
+## Demo
+
+![Project 3 Demo](Project_3_DEMO%20(1).gif)
